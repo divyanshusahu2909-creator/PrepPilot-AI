@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+backend/venv/
+backend/staticfiles/
+
+# Django runtime data
+backend/media/
+*.log
+*.sqlite3
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Node
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-error.log*
+
+# Editors & OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
